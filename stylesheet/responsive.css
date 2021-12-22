@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1920px)
+{
+body{width: 1920px;}
+
+.but2{margin-top: -48%;}
+
+.nazv, .nazv4,.podpis9, .podpis10  {font-size: 170%;}
+.podpis, .nazv2, .podpis2, .nazv3, .podpis3, .podpis4, .podpis5, .podpis6, .podpis7, .podpis8, .nazv7{font-size: 150%;}
+.nazv4{top: 3%; left: 24%;}
+.nazv5 {font-size: 120%;}
+.nazv6 {font-size: 140%;}
+.nazv7{left: 9%;}
+.podpis9 {left: 11%;}
+.podpis10{left: 34%;}
+
+.marquee span {font-size: 900%;}
+.fut1 p, .fut2 p{font-size: 160%; margin-top: 13%;}
+.fut2 p {margin-top: -3%;padding-left: 95%;}
+
+.apel{margin-top: -92%;}
+
+.glaz{left: 22%; bottom: 6%;}
+.glaz2{left: 35%; bottom: 19.5%;}
+.glaz3{left: 37%; bottom: 41%;}
+.glaz4{left: 38%; bottom: 40%;}
+
+@keyframes bir2 {
+  0% {transform: rotateZ(-10deg) translateX(90px);}
+  2% {transform: rotateZ(-10deg) translateX(90px);}
+  50% {transform: rotateZ(8deg) translateX(-90px);}
+  100% {transform: rotateZ(-10deg) translateX(90px);}
+}
+@keyframes bir1 {
+  0% {transform: rotate(-10deg) translateX(30px);}
+  2% {transform: rotate(-10deg)translateX(30px);;}
+  50% {transform: rotate(10deg)translateX(-30px);;}
+  100% {transform: rotate(-10deg) translateX(30px);;}
+}
+@keyframes vi {0%{top: 0px;} 100%{top: -40px;}}
+@keyframes tru {0%{top: 0px;}100%{top: -80px;}}
+@keyframes drop{
+  0% {opacity:0 ;transform: translateY(0);}
+  90% {transform: translateY(250px);}
+  100% {transform: translateY(500px);}
+}
+}
+
+
+
+@media all and (max-width: 1440px)
+{
+body{width: 1440px;}
+.nazv3, .nazv2, .nazv6{font-size: 100%;}
+.nazv, .nazv4, .nazv7, .podpis9, .podpis10 {font-size: 120%;}
+.nazv5 {font-size: 90%;}
+.podpis,  .podpis2, .podpis3, .podpis4, .podpis5, .podpis6, .podpis7, .podpis8 {font-size: 110%;}
+.nazv7{left:7%;}
+
+.glaz{left: 20%; bottom: 5%;}
+.glaz2{left: 31%; bottom: 18.5%;}
+.glaz3{left: 33%; bottom: 40%;}
+.glaz4{left: 35%; bottom: 39%;}
+
+.marquee span {font-size: 700%;}
+.fut1 p, .fut2 p{font-size: 120%; margin-top: 13%;}
+.fut2 p {margin-top: -3%;padding-left: 95%;}
+
+@keyframes drop{
+  0% {opacity:0 ;transform: translateY(0);}
+  90% {transform: translateY(125px);}
+  100% {transform: translateY(450px);}
+}
+@keyframes tru {0%{top: 0px;}100%{top: -60px;}}
+@keyframes bir2 {
+  0% {transform: rotateZ(-10deg) translateX(70px);}
+  2% {transform: rotateZ(-10deg) translateX(70px);}
+  50% {transform: rotateZ(8deg) translateX(-70px);}
+  100% {transform: rotateZ(-10deg) translateX(70px);}
+}
+}
+
+
+
+@media all and (max-width: 1360px)
+{
+body{width: 1360px;}
+
+.glaz{left: 19%;}
+.glaz2{left: 30%;}
+.glaz3{left: 32.8%; bottom: 39%;}
+.glaz4{left: 33%; bottom: 38%;}
+
+.nazv7{left:5%;}
+
+@keyframes drop{
+  0% {opacity:0 ;transform: translateY(0);}
+  90% {transform: translateY(200px);}
+  100% {transform: translateY(400px);}
+}
+
+.marquee span {font-size: 600%;}
+}
+
+
+
+@media all and (max-width: 1024px)
+{
+body{width: 1024px;}
+
+.nazv6{font-size: 75%;}
+.nazv5{font-size: 65%;}
+.nazv2,.nazv3 {font-size: 80%;}
+.nazv,.nazv7,.nazv4,.podpis9, .podpis10 {font-size: 90%;}
+.podpis,.podpis2, .podpis3, .podpis4, .podpis5, .podpis6, .podpis7, .podpis8 {font-size: 80%;}
+
+.marquee span {font-size: 400%;}
+.fut1 p, .fut2 p{font-size: 90%; margin-top: 13%;}
+.fut2 p {margin-top: -3%;padding-left: 94%;}
+
+@keyframes vi {0%{top: 0px;} 100%{top: -20px;}}
+@keyframes tru {0%{top: 0px;}100%{top: -30px;}}
+@keyframes bir2 {
+  0% {transform: rotateZ(-10deg) translateX(50px);}
+  2% {transform: rotateZ(-10deg) translateX(50px);}
+  50% {transform: rotateZ(8deg) translateX(-50px);}
+  100% {transform: rotateZ(-10deg) translateX(50px);}
+}
+@keyframes drop{
+  0% {opacity:0 ;transform: translateY(0);}
+  90% {transform: translateY(100px);}
+  100% {transform: translateY(250px);}
+}
+
+.glaz{left: 15.7%;}
+.glaz2{left: 24%;bottom: 17%;}
+.glaz3{left: 26.3%; bottom: 36%;}
+.glaz4{left: 29%; bottom: 35%;}
+}
+
+
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+body{width: 768px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-device-width: 414px) and (max-device-width: 896px) and (orientation: portrait)
+{
+body{width: 414px;}
+}
+@media all and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait)
+{/*.but9{display:none;}*/
+body{width: 360px;}
+}
